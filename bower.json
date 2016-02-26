@@ -1,0 +1,35 @@
+{
+  "name": "gridmap-layout-vietnam",
+  "description": "Positions of tiles for Vietnam grid map visualization",
+  "homepage": "https://github.com/micahstubbs/gridmap-layout-vietnam",
+  "main": "dist/gridmap-layout-vietnamwe.min.js",
+  "authors": [
+    "Krist Wongsuphasawat <krist.wongz@gmail.com> (http://kristw.yellowpigz.com)",
+    "Micah Stubbs <micahstubbs@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gridmap",
+    "gridmap-layout",
+    "visualization",
+    "vietnam"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "examples",
+    "docs",
+    "gruntFile.js",
+    "grunt/*.js",
+    "package.json"
+  ]
+}

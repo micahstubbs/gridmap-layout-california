@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.svg-container{
+  width: 256px;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+}
+
+svg{
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.background {
+  fill: #eee;
+  pointer-events: all;
+}
+
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+}
+
+.axis path,
+.axis line{
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 0.5px;
+}
+
+text{
+  font-weight: 300;
+}
+
+</style>
+<body>
+
+<!-- raw -->
+<div class="svg-container">
+  <b>Vietnam Geographic Map</b>
+  <br>
+  <svg id="step0"></svg>
+</div>
+<!-- collision -->
+<div class="svg-container">
+  <b>Vietnam Grid Map</b><br>
+  <svg id="step1"></svg>
+</div>
+
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var options = {
+  rectSize: 19,
+  gridSize: 10,
+  offsetX: -72,
+  offsetY: -24,
+  mapScale: 1700,
+  mapRotate: [-105.12, -16] // Customize the projection to center the map on Vietnam
+};
+
+var width = 352;
+var height = 496;
+
+// Define color scale
+var color = d3.scale.quantize()
+  .domain([1, 20])
+  .range(['#b2ddf0', '#92bcd8', '#769cbf', '#5d7da7', '#46608f', '#334577', '#232d5f']);
+
+var projection = d3.geo.mercator()
+  .scale(options.mapScale)
+  .rotate(options.mapRotate)
+  .translate([width / 2, height / 2]);
+
+var path = d3.geo.path()
+  .projection(projection);
+
+// grid
+var xScale = d3.scale.linear()
+    .domain([0, width])
+    .range([0, width]);
+
+var yScale = d3.scale.linear()
+    .domain([0, height])
+    .range([0, height]);
+
+var xAxis = d3.svg.axis()
+    .scale(xScale)
+    .orient('bottom')
+    .innerTickSize(-height)
+    .outerTickSize(0)
+    .tickValues(d3.range(0,width,options.rectSize));
+
+var yAxis = d3.svg.axis()
+    .scale(yScale)
+    .orient('left')
+    .innerTickSize(-width)
+    .outerTickSize(0)
+    .tickValues(d3.range(0,height,options.rectSize));
+
+function drawGrid(container){
+  var axisLayer = container.append('g');
+
+  axisLayer.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
+
+  axisLayer.append("g")
+    .attr("class", "y axis")
+    .call(yAxis);
+}
+
+// Set svg width & height
+var svgs = d3.range(0,2).map(function(step){
+  var svg = d3.select('svg#step'+step)
+    .attr('transform', 'translate('+(0.5)+','+(0.5)+')')
+    .attr('width', 256)
+    .attr('height', 448);
+
+  svg.append('g')
+    .attr('transform', 'translate('+options.offsetX+', '+options.offsetY+')')
+    .classed('map-layer', true);
+
+  return svg;
+});
+
+queue()
+  .defer(d3.json, 'data/vietnam.json')
+  .defer(d3.json, 'data/gridmap-layout-vietnam.json')
+  .await(function(error, country, gridmap){
+    var features = country.features;
+
+    // Update color scale domain based on data
+    color.domain([0, d3.max(features, nameLength)]);
+
+    function drawMap(container){
+      // Draw each province as a path
+      container.select('.map-layer').selectAll('path')
+          .data(features)
+        .enter().append('path')
+          .attr('d', path)
+          .style('stroke', 'none')
+          .style('fill', fillFn)
+          .style('opacity', 0.5)
+          .attr('vector-effect', 'non-scaling-stroke');
+    }
+
+    drawMap(svgs[0]);
+
+    var sEnter = svgs[1].append('g')
+        .attr('transform', 'translate('+(46)+','+(8)+')')
+      .selectAll('g')
+        .data(gridmap)
+      .enter().append('g')
+        .attr('transform', function(d){return 'translate('+(d.x*options.rectSize)+','+(d.y*options.rectSize)+')';});
+
+    sEnter.append('rect')
+      .attr('width', options.rectSize)
+      .attr('height', options.rectSize)
+      .attr('vector-effect', 'non-scaling-stroke')
+      .style('opacity', 0.5)
+      .style('stroke', '#aaa')
+      .style('fill', function(d){return color(d.enName.length);});
+
+    sEnter.append('text')
+      .attr('x', options.rectSize * 0.5)
+      .attr('y', options.rectSize * 0.66)
+      .style({
+        'text-anchor': 'middle',
+        'font-size': options.rectSize * 0.4
+      })
+      .text(function(d){return d.localAbbr;});
+  });
+
+// Get province name
+function nameFn(d){
+  return d && d.properties ? d['properties']['NAME_1'] : null;
+}
+
+// Get province name length
+function nameLength(d){
+  var n = nameFn(d);
+  return n ? n.length : 0;
+}
+
+// Get province color
+function fillFn(d){
+  return color(nameLength(d));
+}
+
+</script>
