@@ -5,13 +5,24 @@ var mu = require('mu2');
 
 var inputDir = __dirname + '/input';
 var outputDir = __dirname + '/output';
-var countryName = 'vietnam';
+var countryName = 'california';
 
 var provinces = util.readCsv(inputDir + '/provinces.csv');
+//console.log('provinces', provinces);
+
 var provinceLookup = _.indexBy(provinces, function(d){return d.enAbbr;});
+//console.log('provinceLookup', provinceLookup);
+
 var matrix = util.readCsvWithoutHeader(outputDir + '/step3_curated.csv');
+//console.log('matrix', matrix);
 
 var cells = util.convertMatrixToList(matrix).map(function(cell){
+  //var key = cell.value.
+
+  //console.log('cell', cell);
+  //console.log('cell.value', cell.value);
+  //console.log('provinceLookup[cell.value]', provinceLookup[cell.value]);
+
   return _.extend({
     x: cell.col,
     y: cell.row
