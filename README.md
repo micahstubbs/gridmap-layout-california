@@ -1,6 +1,6 @@
-# gridmap-layout-vietnam
+# gridmap-layout-california
 
-Positions of tiles for Vietnam grid map visualization.  Inspired by the [Thailand grid map](https://github.com/kristw/gridmap-layout-thailand) from [@kristw](https://twitter.com/kristw)
+Positions of tiles for California grid map visualization.  Inspired by the [Thailand grid map](https://github.com/kristw/gridmap-layout-thailand) from [@kristw](https://twitter.com/kristw)
 
 <p align="center">
   <img src="examples/screenshot.png">
@@ -8,10 +8,10 @@ Positions of tiles for Vietnam grid map visualization.  Inspired by the [Thailan
 
 The data files can be found in the ```dist``` directory of the installed package. Either one of these files below can be used:
 
-- dist/gridmap-layout-vietnam.json
-- dist/gridmap-layout-vietnam.csv
-- dist/gridmap-layout-vietnam.js
-- dist/gridmap-layout-vietnam.min.js
+- dist/gridmap-layout-california.json
+- dist/gridmap-layout-california.csv
+- dist/gridmap-layout-california.js
+- dist/gridmap-layout-california.min.js
 
 The data in each file is an array of tiles (provinces). Each tile is in this format:
 
@@ -34,7 +34,7 @@ The data in each file is an array of tiles (provinces). Each tile is in this for
 One way to use this is to use with [D3.js](http://d3js.org/). See a live example on [bl.ocks.org](http://bl.ocks.org/kristw/09ead46529638309cd60). Or you can use the ready-to-use component [d3Kit-gridmap](https://github.com/kristw/d3kit-gridmap).
 
 ```javascript
-d3.json('path/to/gridmap-layout-vietnam/dist/gridmap-layout-vietnam.json', function(error, gridmapLayoutVietnam){
+d3.json('path/to/gridmap-layout-california/dist/gridmap-layout-california.json', function(error, gridmapLayoutCalifornia){
   var options = {
     rectWidth: 25,
     rectHeight: 25
@@ -51,7 +51,7 @@ d3.json('path/to/gridmap-layout-vietnam/dist/gridmap-layout-vietnam.json', funct
 
   var sEnter = svg.append('g')
     .selectAll('g')
-      .data(gridmapLayoutVietnam)
+      .data(gridmapLayoutCalifornia)
     .enter().append('g')
       .attr('transform', function(d){return 'translate('+(d.x*options.rectWidth)+','+(d.y*options.rectHeight)+')';});
 

@@ -14,11 +14,11 @@ var options = {
   gridSize: 10,
   offsetX: -72,
   offsetY: -24,
-  mapScale: 1152,
-  mapRotate: [-105.12, -16.56] // Customize the projection to center the map on Vietnam
+  mapScale: 1328,
+  mapRotate: [123, -39] // Customize the projection to center the map on California
 };
 
-var mapData = require(inputDir + '/vietnam.json');
+var mapData = require(inputDir + '/california.json');
 var provinces = util.readCsv(inputDir + '/provinces.csv');
 var provinceLookup = _.indexBy(provinces, function(d){return d.enName;});
 //console.log('provinceLookup', provinceLookup);
@@ -39,7 +39,7 @@ var features = mapData.features;
 var blocks = features.map(function(feature){
   var centroid = path.centroid(feature);
   return {
-    name: feature['properties']['NAME_1'],
+    name: feature['properties']['NAME'],
     cx: centroid[0],
     cy: centroid[1],
     clusterX: centroid[0],
@@ -94,14 +94,14 @@ function onEnd(){
     return a.col-b.col;
   });
 
-  //console.log('cells', cells);
+  console.log('cells', cells);
 
   var matrix = util.convertListToMatrix(
     cells,
     function(d){return d.row;},
     function(d){return d.col;},
     function(d){
-      //console.log('d', d);
+      console.log('d', d);
       return provinceLookup[d.name].enAbbr;
     }
   );

@@ -1,8 +1,8 @@
 {
-  "name": "gridmap-layout-vietnam",
+  "name": "gridmap-layout-california",
   "version": "0.0.3",
-  "description": "Positions of tiles for Vietnam grid map visualization",
-  "main": "dist/gridmap-layout-vietnam.min.js",
+  "description": "Positions of tiles for California grid map visualization",
+  "main": "dist/gridmap-layout-california.min.js",
   "author": "Krist Wongsuphasawat <krist.wongz@gmail.com> (http://kristw.yellowpigz.com)",
   "contributors": [
     "Krist Wongsuphasawat <krist.wongz@gmail.com>",
@@ -13,7 +13,7 @@
     "gridmap",
     "gridmap-layout",
     "visualization",
-    "vietnam"
+    "california"
   ],
   "dependencies": {
     "json2csv": "^3.0.2"
@@ -34,6 +34,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "precurate": "node src/precurate.js",
-    "postcurate": "node src/postcurate.js && node_modules/uglify-js/bin/uglifyjs --compress --mangle -- src/output/gridmap-layout-vietnam.js > src/output/gridmap-layout-vietnam.min.js && cp src/input/*.* examples/data && cp src/output/*.* examples/data && cp src/output/gridmap-layout*.* dist"
+    "postcurate": "node src/postcurate.js && node_modules/uglify-js/bin/uglifyjs --compress --mangle -- src/output/gridmap-layout-california.js > src/output/gridmap-layout-california.min.js && cp src/input/*.* examples/data && cp src/output/*.* examples/data && cp src/output/gridmap-layout*.* dist"
   }
 }

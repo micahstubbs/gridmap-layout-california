@@ -45,18 +45,20 @@ text{
 
 <!-- raw -->
 <div class="svg-container">
-  <b>Vietnam Geographic Map</b>
+  <b>California Geographic Map</b>
   <br>
   <svg id="step0"></svg>
 </div>
 <!-- collision -->
 <div class="svg-container">
-  <b>Vietnam Grid Map</b><br>
+  <b>California Grid Map</b><br>
   <svg id="step1"></svg>
 </div>
 
-<script src="http://d3js.org/queue.v1.min.js"></script>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<!-- <script src="http://d3js.org/queue.v1.min.js"></script> -->
+<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+<script src="../lib-local/queue.v1.min.js"></script>
+<script src="../lib-local/d3.v3.min.js"></script>
 <script>
 
 var options = {
@@ -65,7 +67,8 @@ var options = {
   offsetX: -72,
   offsetY: -24,
   mapScale: 1700,
-  mapRotate: [-105.12, -16] // Customize the projection to center the map on Vietnam
+  mapRotate: [-105.12, -16], // Customize the projection to center the map on California,
+  nameKey: "NAME"
 };
 
 var width = 352;
@@ -135,8 +138,8 @@ var svgs = d3.range(0,2).map(function(step){
 });
 
 queue()
-  .defer(d3.json, 'data/vietnam.json')
-  .defer(d3.json, 'data/gridmap-layout-vietnam.json')
+  .defer(d3.json, 'data/california.json')
+  .defer(d3.json, 'data/gridmap-layout-california.json')
   .await(function(error, country, gridmap){
     var features = country.features;
 
@@ -170,7 +173,10 @@ queue()
       .attr('vector-effect', 'non-scaling-stroke')
       .style('opacity', 0.5)
       .style('stroke', '#aaa')
-      .style('fill', function(d){return color(d.enName.length);});
+      .style('fill', function(d){
+        console.log('d', d);
+        return color(d.enName.length);
+      });
 
     sEnter.append('text')
       .attr('x', options.rectSize * 0.5)
@@ -184,7 +190,7 @@ queue()
 
 // Get province name
 function nameFn(d){
-  return d && d.properties ? d['properties']['NAME_1'] : null;
+  return d && d.properties ? d['properties'][options['nameKey']] : null;
 }
 
 // Get province name length

@@ -1,4 +1,4 @@
-[https://en.wikipedia.org/wiki/Provinces_of_Vietnam](https://en.wikipedia.org/wiki/Provinces_of_Vietnam)
+[https://en.wikipedia.org/wiki/Provinces_of_California](https://en.wikipedia.org/wiki/Provinces_of_California)
 
 [https://www.import.io/](https://www.import.io/)
 
@@ -14,4 +14,4 @@ source for `localName` and `localAbbr`
 
 #### Nice to have
 
-a tool that showed a simple geographic map of the provinces of vietnam that let you draw lines through them to indicate rows or columns
+a tool that showed a simple geographic map of the provinces of california that let you draw lines through them to indicate rows or columns

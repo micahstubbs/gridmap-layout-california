@@ -78,7 +78,7 @@ var options = {
   offsetX: -72,
   offsetY: -24,
   mapScale: 1700,
-  mapRotate: [-105.12, -16] // Customize the projection to center the map on Vietnam
+  mapRotate: [-105.12, -16] // Customize the projection to center the map on California
 };
 
 var width = 352;
@@ -143,10 +143,10 @@ var svgs = d3.range(0,5).map(function(step){
 });
 
 queue()
-  .defer(d3.json, 'data/vietnam.json')
+  .defer(d3.json, 'data/california.json')
   .defer(d3.json, 'data/step1_collision.json')
   .defer(d3.json, 'data/step2_snap.json')
-  .defer(d3.json, 'data/gridmap-layout-vietnam.json')
+  .defer(d3.json, 'data/gridmap-layout-california.json')
   .await(function(error, country, step1, step2, gridmap){
     var features = country.features;
 
