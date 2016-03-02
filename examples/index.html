@@ -62,12 +62,12 @@ text{
 <script>
 
 var options = {
-  rectSize: 19,
+  rectSize: 16,
   gridSize: 10,
-  offsetX: -72,
-  offsetY: -24,
-  mapScale: 1700,
-  mapRotate: [-105.12, -16], // Customize the projection to center the map on California,
+  offsetX: -122, // -72
+  offsetY: -50, // -24
+  mapScale: 1328,
+  mapRotate: [123, -39], // Customize the projection to center the map on California,
   nameKey: "NAME"
 };
 
@@ -161,7 +161,7 @@ queue()
     drawMap(svgs[0]);
 
     var sEnter = svgs[1].append('g')
-        .attr('transform', 'translate('+(46)+','+(8)+')')
+        .attr('transform', 'translate('+(-30)+','+(-30)+')')
       .selectAll('g')
         .data(gridmap)
       .enter().append('g')
@@ -175,7 +175,7 @@ queue()
       .style('stroke', '#aaa')
       .style('fill', function(d){
         console.log('d', d);
-        return color(d.enName.length);
+        return d.enName ? color(d.enName.length) : color(0);
       });
 
     sEnter.append('text')
@@ -183,7 +183,7 @@ queue()
       .attr('y', options.rectSize * 0.66)
       .style({
         'text-anchor': 'middle',
-        'font-size': options.rectSize * 0.4
+        'font-size': options.rectSize * 0.24
       })
       .text(function(d){return d.localAbbr;});
   });

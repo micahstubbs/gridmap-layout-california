@@ -37,19 +37,21 @@ var abbreviationLength = 2;
 // calculate short posssible abbreviation for the list of provinces
 function generateAbbreviations(array) {
 	var lengths = array.map(function(d) { return d.length; })
-	var minLength = d3.min(lengths);
+	var maxLength = d3.max(lengths);
 	var abbreviations;
 
-	for(var i=0; i<minLength; i++) {
+	for(var i=0; i<maxLength; i++) {
 		abbreviations = array.map(function(d) { 
 			d = d.replace(/\s/g, "");
 			abbreviationLength = i+1;
 			return d.substring(0, i+1) 
 		})
 		abbreviations = _.uniq(abbreviations);
-		if(abbreviations.length === array.length) {
 
-			break
+		console.log('abbreviations.length', abbreviations.length);
+		console.log('array.length', array.length);
+		if(abbreviations.length === array.length) {
+			maxLength = i+1
 		}
 	}
 	return abbreviations;
@@ -61,8 +63,9 @@ var abbreviations = abbreviationsFlatArray.map(function(d) {
 		'abbreviation': d
 	}
 })
-console.log('abbreviations', abbreviationsFlatArray);
-console.log('abbreviationLength', abbreviationLength);
+//console.log('abbreviations', abbreviationsFlatArray);
+console.log('abbreviations', abbreviationsFlatArray.sort());
+//console.log('abbreviationLength', abbreviationLength);
 
 var fields = ['abbreviation'];
 

@@ -1,59 +1,59 @@
-"enName","enAbbr","localName","localAbbr"
-"Tulare","Tula","Tulare","Tula"
-"Calaveras","Cala","Calaveras","Cala"
-"Merced","Merc","Merced","Merc"
-"San Luis Obispo","SanL","San Luis Obispo","SanL"
-"Sonoma","Sono","Sonoma","Sono"
-"Marin","Mari","Marin","Mari"
-"Humboldt","Humb","Humboldt","Humb"
-"Mono","Mono","Mono","Mono"
-"Del Norte","DelN","Del Norte","DelN"
-"Colusa","Colu","Colusa","Colu"
-"Alameda","Alam","Alameda","Alam"
-"El Dorado","ElDo","El Dorado","ElDo"
-"Sutter","Sutt","Sutter","Sutt"
-"Kings","King","Kings","King"
-"Sierra","Sier","Sierra","Sier"
-"Lassen","Lass","Lassen","Lass"
-"Lake","Lake","Lake","Lake"
-"Tehama","Teha","Tehama","Teha"
-"San Francisco","SanF","San Francisco","SanF"
-"Alpine","Alpi","Alpine","Alpi"
-"Madera","Made","Madera","Made"
-"Sacramento","Sacr","Sacramento","Sacr"
-"Santa Barbara","Sant","Santa Barbara","Sant"
-"Plumas","Plum","Plumas","Plum"
-"Modoc","Modo","Modoc","Modo"
-"Solano","Sola","Solano","Sola"
-"Ventura","Vent","Ventura","Vent"
-"Santa Cruz","Sant","Santa Cruz","Sant"
-"Yuba","Yuba","Yuba","Yuba"
-"Tuolumne","Tuol","Tuolumne","Tuol"
-"Napa","Napa","Napa","Napa"
-"Siskiyou","Sisk","Siskiyou","Sisk"
-"Placer","Plac","Placer","Plac"
-"Glenn","Glen","Glenn","Glen"
-"Trinity","Trin","Trinity","Trin"
-"Inyo","Inyo","Inyo","Inyo"
-"San Benito","SanB","San Benito","SanB"
-"Monterey","Mont","Monterey","Mont"
-"San Diego","SanD","San Diego","SanD"
-"Mariposa","Mari","Mariposa","Mari"
-"Nevada","Neva","Nevada","Neva"
-"Mendocino","Mend","Mendocino","Mend"
-"Yolo","Yolo","Yolo","Yolo"
-"Imperial","Impe","Imperial","Impe"
-"Stanislaus","Stan","Stanislaus","Stan"
-"Kern","Kern","Kern","Kern"
-"Contra Costa","Cont","Contra Costa","Cont"
-"Fresno","Fres","Fresno","Fres"
-"Santa Clara","Sant","Santa Clara","Sant"
-"San Mateo","SanM","San Mateo","SanM"
-"Butte","Butt","Butte","Butt"
-"San Joaquin","SanJ","San Joaquin","SanJ"
-"Amador","Amad","Amador","Amad"
-"Shasta","Shas","Shasta","Shas"
-"Riverside","Rive","Riverside","Rive"
-"Los Angeles","LosA","Los Angeles","LosA"
-"Orange","Oran","Orange","Oran"
-"San Bernardino","SanB","San Bernardino","SanB"
+enName,enAbbr,localName,localAbbr
+Tulare,Tulare,Tulare,Tulare
+Calaveras,Calaver,Calaveras,Calaver
+Merced,Merced,Merced,Merced
+San Luis Obispo,SanLuis,San Luis Obispo,SanLuis
+Sonoma,Sonoma,Sonoma,Sonoma
+Marin,Marin,Marin,Marin
+Humboldt,Humbold,Humboldt,Humbold
+Mono,Mono,Mono,Mono
+Del Norte,DelNort,Del Norte,DelNort
+Colusa,Colusa,Colusa,Colusa
+Alameda,Alameda,Alameda,Alameda
+El Dorado,ElDorad,El Dorado,ElDorad
+Sutter,Sutter,Sutter,Sutter
+Kings,Kings,Kings,Kings
+Sierra,Sierra,Sierra,Sierra
+Lassen,Lassen,Lassen,Lassen
+Lake,Lake,Lake,Lake
+Tehama,Tehama,Tehama,Tehama
+San Francisco,SanFran,San Francisco,SanFran
+Alpine,Alpine,Alpine,Alpine
+Madera,Madera,Madera,Madera
+Sacramento,Sacrame,Sacramento,Sacrame
+Santa Barbara,SantaBa,Santa Barbara,SantaBa
+Plumas,Plumas,Plumas,Plumas
+Modoc,Modoc,Modoc,Modoc
+Solano,Solano,Solano,Solano
+Ventura,Ventura,Ventura,Ventura
+Santa Cruz,SantaCr,Santa Cruz,SantaCr
+Yuba,Yuba,Yuba,Yuba
+Tuolumne,Tuolumn,Tuolumne,Tuolumn
+Napa,Napa,Napa,Napa
+Siskiyou,Siskiyo,Siskiyou,Siskiyo
+Placer,Placer,Placer,Placer
+Glenn,Glenn,Glenn,Glenn
+Trinity,Trinity,Trinity,Trinity
+Inyo,Inyo,Inyo,Inyo
+San Benito,SanBeni,San Benito,SanBeni
+Monterey,Montere,Monterey,Montere
+San Diego,SanDieg,San Diego,SanDieg
+Mariposa,Maripos,Mariposa,Maripos
+Nevada,Nevada,Nevada,Nevada
+Mendocino,Mendoci,Mendocino,Mendoci
+Yolo,Yolo,Yolo,Yolo
+Imperial,Imperia,Imperial,Imperia
+Stanislaus,Stanisl,Stanislaus,Stanisl
+Kern,Kern,Kern,Kern
+Contra Costa,ContraC,Contra Costa,ContraC
+Fresno,Fresno,Fresno,Fresno
+Santa Clara,SantaCl,Santa Clara,SantaCl
+San Mateo,SanMate,San Mateo,SanMate
+Butte,Butte,Butte,Butte
+San Joaquin,SanJoaq,San Joaquin,SanJoaq
+Amador,Amador,Amador,Amador
+Shasta,Shasta,Shasta,Shasta
+Riverside,Riversi,Riverside,Riversi
+Los Angeles,LosAnge,Los Angeles,LosAnge
+Orange,Orange,Orange,Orange
+San Bernardino,SanBern,San Bernardino,SanBern

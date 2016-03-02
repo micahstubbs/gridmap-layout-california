@@ -10,7 +10,9 @@ var countryName = 'california';
 var provinces = util.readCsv(inputDir + '/provinces.csv');
 //console.log('provinces', provinces);
 
-var provinceLookup = _.indexBy(provinces, function(d){return d.enAbbr;});
+var provinceLookup = _.indexBy(provinces, function(d){
+  return d.enAbbr; 
+});
 //console.log('provinceLookup', provinceLookup);
 
 var matrix = util.readCsvWithoutHeader(outputDir + '/step3_curated.csv');
@@ -19,9 +21,9 @@ var matrix = util.readCsvWithoutHeader(outputDir + '/step3_curated.csv');
 var cells = util.convertMatrixToList(matrix).map(function(cell){
   //var key = cell.value.
 
-  //console.log('cell', cell);
-  //console.log('cell.value', cell.value);
-  //console.log('provinceLookup[cell.value]', provinceLookup[cell.value]);
+  console.log('cell', cell);
+  console.log('cell.value', cell.value);
+  console.log('provinceLookup[cell.value]', provinceLookup[cell.value]);
 
   return _.extend({
     x: cell.col,
@@ -29,7 +31,7 @@ var cells = util.convertMatrixToList(matrix).map(function(cell){
   }, provinceLookup[cell.value]);
 });
 
-console.log(cells);
+//console.log(cells);
 
 fs.writeFileSync(outputDir + '/gridmap-layout-' + countryName + '.json', JSON.stringify(cells));
 fs.writeFileSync(outputDir + '/gridmap-layout-' + countryName + '.csv', ['x,y,localAbbr,localName,enAbbr,enName']
