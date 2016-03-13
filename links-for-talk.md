@@ -14,3 +14,6 @@ http://scec.usc.edu/internships/useit/content/california-counties-shapefiles
 
 the source for 2-character county abbreviations shown
 https://en.wikipedia.org/wiki/List_of_counties_in_California
+
+Simple and still fast D3 tooltip
+http://bl.ocks.org/biovisualize/1016860
