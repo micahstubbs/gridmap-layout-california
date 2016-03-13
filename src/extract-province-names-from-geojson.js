@@ -21,7 +21,7 @@ var fields = ['province'];
 
 json2csv({ data: provinces, fields: fields }, function(err, csv) {
   if (err) console.log(err);
-  fs.writeFile('provinceNamesFromGeoJSON.csv', csv, function(err) {
+  fs.writeFile(inputDir + '/' + 'provinceNamesFromGeoJSON.csv', csv, function(err) {
     if (err) throw err;
     console.log('file saved');
   });
@@ -71,7 +71,7 @@ var fields = ['abbreviation'];
 
 json2csv({ data: abbreviations, fields: fields }, function(err, csv) {
   if (err) console.log(err);
-  fs.writeFile('provinceAbbreviationsFromGeoJSON.csv', csv, function(err) {
+  fs.writeFile(inputDir + '/' + 'provinceAbbreviationsFromGeoJSON.csv', csv, function(err) {
     if (err) throw err;
     console.log('file saved');
   });
