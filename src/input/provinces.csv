@@ -1,59 +1,59 @@
-enName,enAbbr,localName,localAbbr
-Tulare,Tulare,Tulare,Tulare
-Calaveras,Calaver,Calaveras,Calaver
-Merced,Merced,Merced,Merced
-San Luis Obispo,SanLuis,San Luis Obispo,SanLuis
-Sonoma,Sonoma,Sonoma,Sonoma
-Marin,Marin,Marin,Marin
-Humboldt,Humbold,Humboldt,Humbold
-Mono,Mono,Mono,Mono
-Del Norte,DelNort,Del Norte,DelNort
-Colusa,Colusa,Colusa,Colusa
-Alameda,Alameda,Alameda,Alameda
-El Dorado,ElDorad,El Dorado,ElDorad
-Sutter,Sutter,Sutter,Sutter
-Kings,Kings,Kings,Kings
-Sierra,Sierra,Sierra,Sierra
-Lassen,Lassen,Lassen,Lassen
-Lake,Lake,Lake,Lake
-Tehama,Tehama,Tehama,Tehama
-San Francisco,SanFran,San Francisco,SanFran
-Alpine,Alpine,Alpine,Alpine
-Madera,Madera,Madera,Madera
-Sacramento,Sacrame,Sacramento,Sacrame
-Santa Barbara,SantaBa,Santa Barbara,SantaBa
-Plumas,Plumas,Plumas,Plumas
-Modoc,Modoc,Modoc,Modoc
-Solano,Solano,Solano,Solano
-Ventura,Ventura,Ventura,Ventura
-Santa Cruz,SantaCr,Santa Cruz,SantaCr
-Yuba,Yuba,Yuba,Yuba
-Tuolumne,Tuolumn,Tuolumne,Tuolumn
-Napa,Napa,Napa,Napa
-Siskiyou,Siskiyo,Siskiyou,Siskiyo
-Placer,Placer,Placer,Placer
-Glenn,Glenn,Glenn,Glenn
-Trinity,Trinity,Trinity,Trinity
-Inyo,Inyo,Inyo,Inyo
-San Benito,SanBeni,San Benito,SanBeni
-Monterey,Montere,Monterey,Montere
-San Diego,SanDieg,San Diego,SanDieg
-Mariposa,Maripos,Mariposa,Maripos
-Nevada,Nevada,Nevada,Nevada
-Mendocino,Mendoci,Mendocino,Mendoci
-Yolo,Yolo,Yolo,Yolo
-Imperial,Imperia,Imperial,Imperia
-Stanislaus,Stanisl,Stanislaus,Stanisl
-Kern,Kern,Kern,Kern
-Contra Costa,ContraC,Contra Costa,ContraC
-Fresno,Fresno,Fresno,Fresno
-Santa Clara,SantaCl,Santa Clara,SantaCl
-San Mateo,SanMate,San Mateo,SanMate
-Butte,Butte,Butte,Butte
-San Joaquin,SanJoaq,San Joaquin,SanJoaq
-Amador,Amador,Amador,Amador
-Shasta,Shasta,Shasta,Shasta
-Riverside,Riversi,Riverside,Riversi
-Los Angeles,LosAnge,Los Angeles,LosAnge
-Orange,Orange,Orange,Orange
-San Bernardino,SanBern,San Bernardino,SanBern
+"enName","enAbbr","localName","localAbbr"
+"Tulare","TL","Tulare","TL"
+"Calaveras","CA","Calaveras","CA"
+"Merced","ME","Merced","ME"
+"San Luis Obispo","LO","San Luis Obispo","LO"
+"Sonoma","SN","Sonoma","SN"
+"Marin","MA","Marin","MA"
+"Humboldt","HU","Humboldt","HU"
+"Mono","MN","Mono","MN"
+"Del Norte","DN","Del Norte","DN"
+"Colusa","CO","Colusa","CO"
+"Alameda","AM","Alameda","AM"
+"El Dorado","ED","El Dorado","ED"
+"Sutter","SR","Sutter","SR"
+"Kings","KG","Kings","KG"
+"Sierra","SE","Sierra","SE"
+"Lassen","LS","Lassen","LS"
+"Lake","LK","Lake","LK"
+"Tehama","TE","Tehama","TE"
+"San Francisco","SF","San Francisco","SF"
+"Alpine","AL","Alpine","AL"
+"Madera","MD","Madera","MD"
+"Sacramento","SA","Sacramento","SA"
+"Santa Barbara","BR","Santa Barbara","BR"
+"Plumas","PM","Plumas","PM"
+"Modoc","MO","Modoc","MO"
+"Solano","SL","Solano","SL"
+"Ventura","VE","Ventura","VE"
+"Santa Cruz","SZ","Santa Cruz","SZ"
+"Yuba","YU","Yuba","YU"
+"Tuolumne","TU","Tuolumne","TU"
+"Napa","NA","Napa","NA"
+"Siskiyou","SK","Siskiyou","SK"
+"Placer","PL","Placer","PL"
+"Glenn","GL","Glenn","GL"
+"Trinity","TR","Trinity","TR"
+"Inyo","IN","Inyo","IN"
+"San Benito","BN","San Benito","BN"
+"Monterey","MT","Monterey","MT"
+"San Diego","SD","San Diego","SD"
+"Mariposa","MR","Mariposa","MR"
+"Nevada","NV","Nevada","NV"
+"Mendocino","MC","Mendocino","MC"
+"Yolo","YO","Yolo","YO"
+"Imperial","IM","Imperial","IM"
+"Stanislaus","ST","Stanislaus","ST"
+"Kern","KE","Kern","KE"
+"Contra Costa","CC","Contra Costa","CC"
+"Fresno","FR","Fresno","FR"
+"Santa Clara","SC","Santa Clara","SC"
+"San Mateo","SM","San Mateo","SM"
+"Butte","BU","Butte","BU"
+"San Joaquin","SJ","San Joaquin","SJ"
+"Amador","AD","Amador","AD"
+"Shasta","SH","Shasta","SH"
+"Riverside","RV","Riverside","RV"
+"Los Angeles","LA","Los Angeles","LA"
+"Orange","OR","Orange","OR"
+"San Bernardino","SB","San Bernardino","SB"

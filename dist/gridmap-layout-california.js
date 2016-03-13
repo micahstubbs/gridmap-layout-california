@@ -19,441 +19,441 @@
     "x": 5,
     "y": 10,
     "enName": "Del Norte",
-    "enAbbr": "DelNort",
+    "enAbbr": "DN",
     "localName": "Del Norte",
-    "localAbbr": "DelNort"
+    "localAbbr": "DN"
   },
   {
     "x": 6,
     "y": 10,
     "enName": "Siskiyou",
-    "enAbbr": "Siskiyo",
+    "enAbbr": "SK",
     "localName": "Siskiyou",
-    "localAbbr": "Siskiyo"
+    "localAbbr": "SK"
   },
   {
     "x": 7,
     "y": 10,
     "enName": "Shasta",
-    "enAbbr": "Shasta",
+    "enAbbr": "SH",
     "localName": "Shasta",
-    "localAbbr": "Shasta"
+    "localAbbr": "SH"
   },
   {
     "x": 8,
     "y": 10,
     "enName": "Modoc",
-    "enAbbr": "Modoc",
+    "enAbbr": "MO",
     "localName": "Modoc",
-    "localAbbr": "Modoc"
+    "localAbbr": "MO"
   },
   {
     "x": 9,
     "y": 10,
     "enName": "Lassen",
-    "enAbbr": "Lassen",
+    "enAbbr": "LS",
     "localName": "Lassen",
-    "localAbbr": "Lassen"
+    "localAbbr": "LS"
   },
   {
     "x": 5,
     "y": 11,
     "enName": "Humboldt",
-    "enAbbr": "Humbold",
+    "enAbbr": "HU",
     "localName": "Humboldt",
-    "localAbbr": "Humbold"
+    "localAbbr": "HU"
   },
   {
     "x": 6,
     "y": 11,
     "enName": "Trinity",
-    "enAbbr": "Trinity",
+    "enAbbr": "TR",
     "localName": "Trinity",
-    "localAbbr": "Trinity"
+    "localAbbr": "TR"
   },
   {
     "x": 7,
     "y": 11,
     "enName": "Tehama",
-    "enAbbr": "Tehama",
+    "enAbbr": "TE",
     "localName": "Tehama",
-    "localAbbr": "Tehama"
+    "localAbbr": "TE"
   },
   {
     "x": 8,
     "y": 11,
     "enName": "Nevada",
-    "enAbbr": "Nevada",
+    "enAbbr": "NV",
     "localName": "Nevada",
-    "localAbbr": "Nevada"
+    "localAbbr": "NV"
   },
   {
     "x": 9,
     "y": 11,
     "enName": "Plumas",
-    "enAbbr": "Plumas",
+    "enAbbr": "PM",
     "localName": "Plumas",
-    "localAbbr": "Plumas"
+    "localAbbr": "PM"
   },
   {
     "x": 5,
     "y": 12,
     "enName": "Mendocino",
-    "enAbbr": "Mendoci",
+    "enAbbr": "MC",
     "localName": "Mendocino",
-    "localAbbr": "Mendoci"
+    "localAbbr": "MC"
   },
   {
     "x": 6,
     "y": 12,
     "enName": "Glenn",
-    "enAbbr": "Glenn",
+    "enAbbr": "GL",
     "localName": "Glenn",
-    "localAbbr": "Glenn"
+    "localAbbr": "GL"
   },
   {
     "x": 7,
     "y": 12,
     "enName": "Butte",
-    "enAbbr": "Butte",
+    "enAbbr": "BU",
     "localName": "Butte",
-    "localAbbr": "Butte"
+    "localAbbr": "BU"
   },
   {
     "x": 8,
     "y": 12,
     "enName": "Sutter",
-    "enAbbr": "Sutter",
+    "enAbbr": "SR",
     "localName": "Sutter",
-    "localAbbr": "Sutter"
+    "localAbbr": "SR"
   },
   {
     "x": 9,
     "y": 12,
     "enName": "Placer",
-    "enAbbr": "Placer",
+    "enAbbr": "PL",
     "localName": "Placer",
-    "localAbbr": "Placer"
+    "localAbbr": "PL"
   },
   {
     "x": 5,
     "y": 13,
     "enName": "Lake",
-    "enAbbr": "Lake",
+    "enAbbr": "LK",
     "localName": "Lake",
-    "localAbbr": "Lake"
+    "localAbbr": "LK"
   },
   {
     "x": 6,
     "y": 13,
     "enName": "Colusa",
-    "enAbbr": "Colusa",
+    "enAbbr": "CO",
     "localName": "Colusa",
-    "localAbbr": "Colusa"
+    "localAbbr": "CO"
   },
   {
     "x": 9,
     "y": 13,
     "enName": "Amador",
-    "enAbbr": "Amador",
+    "enAbbr": "AD",
     "localName": "Amador",
-    "localAbbr": "Amador"
+    "localAbbr": "AD"
   },
   {
     "x": 10,
     "y": 13,
     "enName": "Sierra",
-    "enAbbr": "Sierra",
+    "enAbbr": "SE",
     "localName": "Sierra",
-    "localAbbr": "Sierra"
+    "localAbbr": "SE"
   },
   {
     "x": 6,
     "y": 14,
     "enName": "Napa",
-    "enAbbr": "Napa",
+    "enAbbr": "NA",
     "localName": "Napa",
-    "localAbbr": "Napa"
+    "localAbbr": "NA"
   },
   {
     "x": 7,
     "y": 14,
     "enName": "Solano",
-    "enAbbr": "Solano",
+    "enAbbr": "SL",
     "localName": "Solano",
-    "localAbbr": "Solano"
+    "localAbbr": "SL"
   },
   {
     "x": 8,
     "y": 14,
     "enName": "Yuba",
-    "enAbbr": "Yuba",
+    "enAbbr": "YU",
     "localName": "Yuba",
-    "localAbbr": "Yuba"
+    "localAbbr": "YU"
   },
   {
     "x": 9,
     "y": 14,
     "enName": "Sacramento",
-    "enAbbr": "Sacrame",
+    "enAbbr": "SA",
     "localName": "Sacramento",
-    "localAbbr": "Sacrame"
+    "localAbbr": "SA"
   },
   {
     "x": 10,
     "y": 14,
     "enName": "El Dorado",
-    "enAbbr": "ElDorad",
+    "enAbbr": "ED",
     "localName": "El Dorado",
-    "localAbbr": "ElDorad"
+    "localAbbr": "ED"
   },
   {
     "x": 11,
     "y": 14,
     "enName": "Alpine",
-    "enAbbr": "Alpine",
+    "enAbbr": "AL",
     "localName": "Alpine",
-    "localAbbr": "Alpine"
+    "localAbbr": "AL"
   },
   {
     "x": 5,
     "y": 15,
     "enName": "Sonoma",
-    "enAbbr": "Sonoma",
+    "enAbbr": "SN",
     "localName": "Sonoma",
-    "localAbbr": "Sonoma"
+    "localAbbr": "SN"
   },
   {
     "x": 7,
     "y": 15,
     "enName": "San Mateo",
-    "enAbbr": "SanMate",
+    "enAbbr": "SM",
     "localName": "San Mateo",
-    "localAbbr": "SanMate"
+    "localAbbr": "SM"
   },
   {
     "x": 8,
     "y": 15,
     "enName": "Stanislaus",
-    "enAbbr": "Stanisl",
+    "enAbbr": "ST",
     "localName": "Stanislaus",
-    "localAbbr": "Stanisl"
+    "localAbbr": "ST"
   },
   {
     "x": 9,
     "y": 15,
     "enName": "Calaveras",
-    "enAbbr": "Calaver",
+    "enAbbr": "CA",
     "localName": "Calaveras",
-    "localAbbr": "Calaver"
+    "localAbbr": "CA"
   },
   {
     "x": 11,
     "y": 15,
     "enName": "Mono",
-    "enAbbr": "Mono",
+    "enAbbr": "MN",
     "localName": "Mono",
-    "localAbbr": "Mono"
+    "localAbbr": "MN"
   },
   {
     "x": 5,
     "y": 16,
     "enName": "San Francisco",
-    "enAbbr": "SanFran",
+    "enAbbr": "SF",
     "localName": "San Francisco",
-    "localAbbr": "SanFran"
+    "localAbbr": "SF"
   },
   {
     "x": 6,
     "y": 16,
     "enName": "Yolo",
-    "enAbbr": "Yolo",
+    "enAbbr": "YO",
     "localName": "Yolo",
-    "localAbbr": "Yolo"
+    "localAbbr": "YO"
   },
   {
     "x": 7,
     "y": 16,
     "enName": "San Joaquin",
-    "enAbbr": "SanJoaq",
+    "enAbbr": "SJ",
     "localName": "San Joaquin",
-    "localAbbr": "SanJoaq"
+    "localAbbr": "SJ"
   },
   {
     "x": 9,
     "y": 16,
     "enName": "Merced",
-    "enAbbr": "Merced",
+    "enAbbr": "ME",
     "localName": "Merced",
-    "localAbbr": "Merced"
+    "localAbbr": "ME"
   },
   {
     "x": 10,
     "y": 16,
     "enName": "Mariposa",
-    "enAbbr": "Maripos",
+    "enAbbr": "MR",
     "localName": "Mariposa",
-    "localAbbr": "Maripos"
+    "localAbbr": "MR"
   },
   {
     "x": 6,
     "y": 17,
     "enName": "Santa Cruz",
-    "enAbbr": "SantaCr",
+    "enAbbr": "SZ",
     "localName": "Santa Cruz",
-    "localAbbr": "SantaCr"
+    "localAbbr": "SZ"
   },
   {
     "x": 7,
     "y": 17,
     "enName": "Santa Clara",
-    "enAbbr": "SantaCl",
+    "enAbbr": "SC",
     "localName": "Santa Clara",
-    "localAbbr": "SantaCl"
+    "localAbbr": "SC"
   },
   {
     "x": 8,
     "y": 17,
     "enName": "Alameda",
-    "enAbbr": "Alameda",
+    "enAbbr": "AM",
     "localName": "Alameda",
-    "localAbbr": "Alameda"
+    "localAbbr": "AM"
   },
   {
     "x": 9,
     "y": 17,
     "enName": "San Benito",
-    "enAbbr": "SanBeni",
+    "enAbbr": "BN",
     "localName": "San Benito",
-    "localAbbr": "SanBeni"
+    "localAbbr": "BN"
   },
   {
     "x": 10,
     "y": 17,
     "enName": "Fresno",
-    "enAbbr": "Fresno",
+    "enAbbr": "FR",
     "localName": "Fresno",
-    "localAbbr": "Fresno"
+    "localAbbr": "FR"
   },
   {
     "x": 11,
     "y": 17,
     "enName": "Madera",
-    "enAbbr": "Madera",
+    "enAbbr": "MD",
     "localName": "Madera",
-    "localAbbr": "Madera"
+    "localAbbr": "MD"
   },
   {
     "x": 13,
     "y": 17,
     "enName": "Inyo",
-    "enAbbr": "Inyo",
+    "enAbbr": "IN",
     "localName": "Inyo",
-    "localAbbr": "Inyo"
+    "localAbbr": "IN"
   },
   {
     "x": 8,
     "y": 18,
     "enName": "Monterey",
-    "enAbbr": "Montere",
+    "enAbbr": "MT",
     "localName": "Monterey",
-    "localAbbr": "Montere"
+    "localAbbr": "MT"
   },
   {
     "x": 10,
     "y": 18,
     "enName": "Kings",
-    "enAbbr": "Kings",
+    "enAbbr": "KG",
     "localName": "Kings",
-    "localAbbr": "Kings"
+    "localAbbr": "KG"
   },
   {
     "x": 11,
     "y": 18,
     "enName": "Tulare",
-    "enAbbr": "Tulare",
+    "enAbbr": "TL",
     "localName": "Tulare",
-    "localAbbr": "Tulare"
+    "localAbbr": "TL"
   },
   {
     "x": 9,
     "y": 19,
     "enName": "San Luis Obispo",
-    "enAbbr": "SanLuis",
+    "enAbbr": "LO",
     "localName": "San Luis Obispo",
-    "localAbbr": "SanLuis"
+    "localAbbr": "LO"
   },
   {
     "x": 11,
     "y": 19,
     "enName": "Kern",
-    "enAbbr": "Kern",
+    "enAbbr": "KE",
     "localName": "Kern",
-    "localAbbr": "Kern"
+    "localAbbr": "KE"
   },
   {
     "x": 14,
     "y": 19,
     "enName": "San Bernardino",
-    "enAbbr": "SanBern",
+    "enAbbr": "SB",
     "localName": "San Bernardino",
-    "localAbbr": "SanBern"
+    "localAbbr": "SB"
   },
   {
     "x": 10,
     "y": 20,
     "enName": "Santa Barbara",
-    "enAbbr": "SantaBa",
+    "enAbbr": "BR",
     "localName": "Santa Barbara",
-    "localAbbr": "SantaBa"
+    "localAbbr": "BR"
   },
   {
     "x": 11,
     "y": 20,
     "enName": "Ventura",
-    "enAbbr": "Ventura",
+    "enAbbr": "VE",
     "localName": "Ventura",
-    "localAbbr": "Ventura"
+    "localAbbr": "VE"
   },
   {
     "x": 12,
     "y": 20,
     "enName": "Los Angeles",
-    "enAbbr": "LosAnge",
+    "enAbbr": "LA",
     "localName": "Los Angeles",
-    "localAbbr": "LosAnge"
+    "localAbbr": "LA"
   },
   {
     "x": 12,
     "y": 21,
     "enName": "Orange",
-    "enAbbr": "Orange",
+    "enAbbr": "OR",
     "localName": "Orange",
-    "localAbbr": "Orange"
+    "localAbbr": "OR"
   },
   {
     "x": 14,
     "y": 21,
     "enName": "Riverside",
-    "enAbbr": "Riversi",
+    "enAbbr": "RV",
     "localName": "Riverside",
-    "localAbbr": "Riversi"
+    "localAbbr": "RV"
   },
   {
     "x": 14,
     "y": 22,
     "enName": "San Diego",
-    "enAbbr": "SanDieg",
+    "enAbbr": "SD",
     "localName": "San Diego",
-    "localAbbr": "SanDieg"
+    "localAbbr": "SD"
   },
   {
     "x": 15,
     "y": 22,
     "enName": "Imperial",
-    "enAbbr": "Imperia",
+    "enAbbr": "IM",
     "localName": "Imperial",
-    "localAbbr": "Imperia"
+    "localAbbr": "IM"
   }
 ];
 }));

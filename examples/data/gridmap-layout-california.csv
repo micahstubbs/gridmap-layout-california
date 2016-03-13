@@ -1,56 +1,56 @@
 x,y,localAbbr,localName,enAbbr,enName
-5,10,DelNort,Del Norte,DelNort,Del Norte
-6,10,Siskiyo,Siskiyou,Siskiyo,Siskiyou
-7,10,Shasta,Shasta,Shasta,Shasta
-8,10,Modoc,Modoc,Modoc,Modoc
-9,10,Lassen,Lassen,Lassen,Lassen
-5,11,Humbold,Humboldt,Humbold,Humboldt
-6,11,Trinity,Trinity,Trinity,Trinity
-7,11,Tehama,Tehama,Tehama,Tehama
-8,11,Nevada,Nevada,Nevada,Nevada
-9,11,Plumas,Plumas,Plumas,Plumas
-5,12,Mendoci,Mendocino,Mendoci,Mendocino
-6,12,Glenn,Glenn,Glenn,Glenn
-7,12,Butte,Butte,Butte,Butte
-8,12,Sutter,Sutter,Sutter,Sutter
-9,12,Placer,Placer,Placer,Placer
-5,13,Lake,Lake,Lake,Lake
-6,13,Colusa,Colusa,Colusa,Colusa
-9,13,Amador,Amador,Amador,Amador
-10,13,Sierra,Sierra,Sierra,Sierra
-6,14,Napa,Napa,Napa,Napa
-7,14,Solano,Solano,Solano,Solano
-8,14,Yuba,Yuba,Yuba,Yuba
-9,14,Sacrame,Sacramento,Sacrame,Sacramento
-10,14,ElDorad,El Dorado,ElDorad,El Dorado
-11,14,Alpine,Alpine,Alpine,Alpine
-5,15,Sonoma,Sonoma,Sonoma,Sonoma
-7,15,SanMate,San Mateo,SanMate,San Mateo
-8,15,Stanisl,Stanislaus,Stanisl,Stanislaus
-9,15,Calaver,Calaveras,Calaver,Calaveras
-11,15,Mono,Mono,Mono,Mono
-5,16,SanFran,San Francisco,SanFran,San Francisco
-6,16,Yolo,Yolo,Yolo,Yolo
-7,16,SanJoaq,San Joaquin,SanJoaq,San Joaquin
-9,16,Merced,Merced,Merced,Merced
-10,16,Maripos,Mariposa,Maripos,Mariposa
-6,17,SantaCr,Santa Cruz,SantaCr,Santa Cruz
-7,17,SantaCl,Santa Clara,SantaCl,Santa Clara
-8,17,Alameda,Alameda,Alameda,Alameda
-9,17,SanBeni,San Benito,SanBeni,San Benito
-10,17,Fresno,Fresno,Fresno,Fresno
-11,17,Madera,Madera,Madera,Madera
-13,17,Inyo,Inyo,Inyo,Inyo
-8,18,Montere,Monterey,Montere,Monterey
-10,18,Kings,Kings,Kings,Kings
-11,18,Tulare,Tulare,Tulare,Tulare
-9,19,SanLuis,San Luis Obispo,SanLuis,San Luis Obispo
-11,19,Kern,Kern,Kern,Kern
-14,19,SanBern,San Bernardino,SanBern,San Bernardino
-10,20,SantaBa,Santa Barbara,SantaBa,Santa Barbara
-11,20,Ventura,Ventura,Ventura,Ventura
-12,20,LosAnge,Los Angeles,LosAnge,Los Angeles
-12,21,Orange,Orange,Orange,Orange
-14,21,Riversi,Riverside,Riversi,Riverside
-14,22,SanDieg,San Diego,SanDieg,San Diego
-15,22,Imperia,Imperial,Imperia,Imperial
+5,10,DN,Del Norte,DN,Del Norte
+6,10,SK,Siskiyou,SK,Siskiyou
+7,10,SH,Shasta,SH,Shasta
+8,10,MO,Modoc,MO,Modoc
+9,10,LS,Lassen,LS,Lassen
+5,11,HU,Humboldt,HU,Humboldt
+6,11,TR,Trinity,TR,Trinity
+7,11,TE,Tehama,TE,Tehama
+8,11,NV,Nevada,NV,Nevada
+9,11,PM,Plumas,PM,Plumas
+5,12,MC,Mendocino,MC,Mendocino
+6,12,GL,Glenn,GL,Glenn
+7,12,BU,Butte,BU,Butte
+8,12,SR,Sutter,SR,Sutter
+9,12,PL,Placer,PL,Placer
+5,13,LK,Lake,LK,Lake
+6,13,CO,Colusa,CO,Colusa
+9,13,AD,Amador,AD,Amador
+10,13,SE,Sierra,SE,Sierra
+6,14,NA,Napa,NA,Napa
+7,14,SL,Solano,SL,Solano
+8,14,YU,Yuba,YU,Yuba
+9,14,SA,Sacramento,SA,Sacramento
+10,14,ED,El Dorado,ED,El Dorado
+11,14,AL,Alpine,AL,Alpine
+5,15,SN,Sonoma,SN,Sonoma
+7,15,SM,San Mateo,SM,San Mateo
+8,15,ST,Stanislaus,ST,Stanislaus
+9,15,CA,Calaveras,CA,Calaveras
+11,15,MN,Mono,MN,Mono
+5,16,SF,San Francisco,SF,San Francisco
+6,16,YO,Yolo,YO,Yolo
+7,16,SJ,San Joaquin,SJ,San Joaquin
+9,16,ME,Merced,ME,Merced
+10,16,MR,Mariposa,MR,Mariposa
+6,17,SZ,Santa Cruz,SZ,Santa Cruz
+7,17,SC,Santa Clara,SC,Santa Clara
+8,17,AM,Alameda,AM,Alameda
+9,17,BN,San Benito,BN,San Benito
+10,17,FR,Fresno,FR,Fresno
+11,17,MD,Madera,MD,Madera
+13,17,IN,Inyo,IN,Inyo
+8,18,MT,Monterey,MT,Monterey
+10,18,KG,Kings,KG,Kings
+11,18,TL,Tulare,TL,Tulare
+9,19,LO,San Luis Obispo,LO,San Luis Obispo
+11,19,KE,Kern,KE,Kern
+14,19,SB,San Bernardino,SB,San Bernardino
+10,20,BR,Santa Barbara,BR,Santa Barbara
+11,20,VE,Ventura,VE,Ventura
+12,20,LA,Los Angeles,LA,Los Angeles
+12,21,OR,Orange,OR,Orange
+14,21,RV,Riverside,RV,Riverside
+14,22,SD,San Diego,SD,San Diego
+15,22,IM,Imperial,IM,Imperial
