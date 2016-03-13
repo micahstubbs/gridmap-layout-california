@@ -9,3 +9,5 @@ https://github.com/kristw/gridmap-layout-thailand
 https://github.com/micahstubbs/gridmap-layout-california
 
 https://docs.google.com/spreadsheets/d/1ZP3X0g9WSDKPHSytS8dXLpcZIO3AvCFDLJR0JfQps9k/edit#gid=1767235680
+
+http://scec.usc.edu/internships/useit/content/california-counties-shapefiles
