@@ -79,6 +79,13 @@ var color = d3.scale.quantize()
   .domain([1, 20])
   .range(['#b2ddf0', '#92bcd8', '#769cbf', '#5d7da7', '#46608f', '#334577', '#232d5f']);
 
+// tooltip
+var tooltip = d3.select("body")
+  .append("div")
+  .style("position", "absolute")
+  .style("z-index", "10")
+  .style("visibility", "hidden");
+
 var projection = d3.geo.mercator()
   .scale(options.mapScale)
   .rotate(options.mapRotate)
@@ -155,7 +162,24 @@ queue()
           .style('stroke', 'none')
           .style('fill', fillFn)
           .style('opacity', 0.5)
-          .attr('vector-effect', 'non-scaling-stroke');
+          .attr('vector-effect', 'non-scaling-stroke')
+          .on("mouseover", function(){
+            console.log('this from mouseover', d3.select(this));
+            var currentElement = d3.select(this);
+            var d = currentElement[0][0]['__data__'];
+            console.log('d from mouseover', d);
+            return tooltip
+              .text(d['properties']['NAMELSAD'])
+              .style("visibility", "visible");
+          })
+          .on("mousemove", function(){
+            return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");
+          })
+          .on("mouseout", function(){
+            return tooltip
+              .style("visibility", "hidden")
+              .text("");
+          });;;
     }
 
     drawMap(svgs[0]);
@@ -178,6 +202,7 @@ queue()
         return d.enName ? color(d.enName.length) : color(0);
       });
 
+
     sEnter.append('text')
       .attr('x', options.rectSize * 0.5)
       .attr('y', options.rectSize * 0.66)
@@ -186,6 +211,26 @@ queue()
         'font-size': options.rectSize * 0.24
       })
       .text(function(d){return d.localAbbr;});
+
+    // mouse events for full name tooltip
+    sEnter
+      .on("mouseover", function(){
+        //console.log('this from mouseover', d3.select(this));
+        var currentElement = d3.select(this);
+        var d = currentElement[0][0]['__data__'];
+        console.log('d from mouseover', d);
+        return tooltip
+          .text(d.enName)
+          .style("visibility", "visible");
+      })
+      .on("mousemove", function(){
+        return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");
+      })
+      .on("mouseout", function(){
+        return tooltip
+          .style("visibility", "hidden")
+          .text("");
+      });;
   });
 
 // Get province name
