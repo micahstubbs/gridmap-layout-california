@@ -2,6 +2,7 @@
   "name": "gridmap-layout-california",
   "version": "0.0.3",
   "description": "Positions of tiles for California grid map visualization",
+  "repository": "git@github.com:micahstubbs/gridmap-layout-california.git",
   "main": "dist/gridmap-layout-california.min.js",
   "author": "Krist Wongsuphasawat <krist.wongz@gmail.com> (http://kristw.yellowpigz.com)",
   "contributors": [
